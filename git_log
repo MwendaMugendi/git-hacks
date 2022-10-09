@@ -1,0 +1,7 @@
+git log # Output is the most recent commit, down to the oldest from the current branch
+git log --oneline # Only show commit ID and comment per-commit
+git log --oneline --graph # Graphical view of merges
+git log --oneline --graph -all # Graphical view of merges including in branches
+git log --oneline --graph -all --decorate # Graphical view of merges and where they happened including in branches
+git log --oneline --graph -all --decorate --simplify-by-decoration # Shows an overview of a project
+git log --oneline --graph -all --decorate --simplify-by-decoration --pretty=%ar %s %h # Shows an overview of a project with a date feature
